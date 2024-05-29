@@ -12,5 +12,14 @@ public class Main {
         for(int i=2 ;i<=24;i+=2){
             System.out.println(i);
         }
+        System.out.println("For loop finished");
+
+        int i=2;
+
+        while(i<25){
+            System.out.println(i);
+            i+=2;
+        }
+        System.out.println("While loop finished");
     }
 }
